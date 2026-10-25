@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#1b6b3a" />
+  <title>Waste to Wealth</title>
+  <meta name="description" content="Know what your scrap is worth, book a local recycler, and earn Green Points." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to main content</a>
+  <header class="topbar">
+    <div class="wrap bar">
+      <a class="brand" href="#/" aria-label="Waste to Wealth home">
+        <span class="logo" aria-hidden="true">♻</span>
+        <span><strong>Waste to Wealth</strong><small id="tagline">Scan it. Sell it. Streak it.</small></span>
+      </a>
+      <div class="bar-right">
+        <label class="sr-only" for="lang">Language</label>
+        <select id="lang" aria-label="Language">
+          <option value="en">English</option>
+          <option value="hi">हिन्दी</option>
+          <option value="te">తెలుగు</option>
+        </select>
+        <button id="logout" class="btn small ghost" hidden>Log out</button>
+      </div>
+    </div>
+    <nav id="nav" class="wrap nav" aria-label="Main" hidden></nav>
+  </header>
+
+  <main id="main" class="wrap" tabindex="-1"></main>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <footer class="wrap foot">
+    <p>Rates shown are indicative. Final payment depends on the weight confirmed at pickup.</p>
+    <p>Team She Codes · Malla Reddy Engineering College for Women</p>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
